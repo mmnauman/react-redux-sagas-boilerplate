@@ -1,6 +1,6 @@
-# Ecommerce Test App
+# React Redux boiler plate Version 2.0
 
-This is test shoping application were user can select product and add to cart according to madate size
+This varsion 2 boiler plate containing react-redux setup with having saga as middleware
 
 ## Available Scripts
 
