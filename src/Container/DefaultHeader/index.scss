@@ -1,0 +1,86 @@
+.logo {
+  position: absolute;
+  margin: 8px 5px 6px 0px !important;
+  border-radius: 6px;
+  left: 10px;
+  width: 30px;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: linear-gradient(180deg, #ed4e08 0%, #ed4e08 100%);
+}
+.reffer-invite {
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  left: 0px;
+  top: 70px;
+  margin-bottom: 20px;
+  background: linear-gradient(90.06deg, #181716 0%, #ed4e08 99.97%);
+  .invite-friend {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #ffffff;
+    .invite-btn {
+      background: #ffff;
+      border-color: #fff;
+      color: #000;
+      padding: 0px 10px 2px 10px;
+      border-radius: 15px;
+      margin-left: 7px;
+      box-shadow: 1px 2px 0px -3px #0000005c;
+    }
+  }
+}
+
+.cart-details {
+  img {
+    position: absolute;
+    top: 14px;
+    right: 20px;
+  }
+  .cart-item {
+    position: absolute;
+    top: 6px;
+    right: 13px;
+    font-size: 16px;
+    background: black;
+    color: #ffff;
+    padding: 3px 9px 2px 6px;
+    border-radius: 50%;
+    border-color: white;
+    font-weight: 600;
+  }
+}
+.internal-pad {
+  padding: 13px 10px 10px 9px;
+}
+.btn-trans {
+  background: transparent;
+  border-color: #000;
+  color: #000;
+  box-shadow: -2px 3px 0px 0px #0000004f;
+}
+
+.btn-trans-danger:hover{
+  background: rgb(236, 104, 104);
+  border-color: #000;
+  color: #fff;
+  box-shadow: -2px 3px 0px 0px #0000004f;
+}
+
+.btn-trans-primary:hover{
+  background: rgb(231, 126, 40);
+  border-color: #000;
+  color: #fff;
+  box-shadow: -2px 3px 0px 0px #0000004f;
+}
+@media only screen and (max-width: 600px) {
+  
+}
