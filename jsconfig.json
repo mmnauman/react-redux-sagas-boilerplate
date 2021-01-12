@@ -15,7 +15,7 @@
         "src/common/*"
       ],
       "reducers/*": [
-        "src/reducers/*"
+        "src/Redux/reducers/*"
       ],
       "sagas/*": [
         "src/sagas/*"
