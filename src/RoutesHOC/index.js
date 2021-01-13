@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Route, Switch, withRouter } from "react-router-dom";
 
 // Pages
-const DefaultLayout = React.lazy(() => import("../DefaultLayout"));
+const DefaultLayout = React.lazy(() => import("../containers/DefaultLayout"));
 
 const Routes = [
   {

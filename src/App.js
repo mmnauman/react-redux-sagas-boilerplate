@@ -5,7 +5,7 @@ import configureStore from "./Redux/store";
 import browserHistory from "utils/history";
 import { Provider } from "react-redux";
 import Loader from "utils/spinner";
-import AppRoutes from "./containers/Routes";
+import AppRoutes from "./RoutesHOC";
 
 const store = configureStore();
 
