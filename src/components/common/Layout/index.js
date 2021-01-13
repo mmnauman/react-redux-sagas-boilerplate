@@ -19,7 +19,7 @@ const Layout = (props) => {
 
   return (
     <Fragment>
-      <Header class="pt-10" showBackground={isScrolled} />
+      <Header className="pt-10" showBackground={isScrolled} />
       <Fragment>
         {props.children}
       </Fragment>

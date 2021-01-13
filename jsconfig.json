@@ -12,7 +12,7 @@
         "src/utils/*"
       ],
       "common/*": [
-        "src/common/*"
+        "src/components/common/*"
       ],
       "reducers/*": [
         "src/Redux/reducers/*"
@@ -24,7 +24,7 @@
         "src/actions/*"
       ],
       "service/*": [
-        "src/service/*"
+        "src/utils/service/*"
       ],
       "constants/*": [
         "src/constants/*"

@@ -1,5 +1,5 @@
 import { put, takeEvery, call } from "redux-saga/effects";
-import { ApiHelper } from "service/ApiHelper";
+import { ApiHelper } from "utils/service/ApiHelper";
 import {
   ProductActions,
   productListSuccess,

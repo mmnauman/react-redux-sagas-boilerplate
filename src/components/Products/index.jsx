@@ -59,48 +59,44 @@ const ProductsComponent = (props) => {
                         ) : (
                           <Fragment>
                             <Card.Title>{data.vendor}</Card.Title>
-                            <Card.Text>
-                              <small>{data.name.substring("...", 32)}</small>
-                            </Card.Text>
+                            <small>{data.name.substring("...", 32)}</small>
                           </Fragment>
                         )}
-                        <Card.Text>
-                          {sizeData && selectSize.index === index ? (
-                            <Button
-                              onClick={() =>
-                                handleAddToCart({
-                                  data: data,
-                                  selectedSize: sizeData,
-                                })
-                              }
-                              className={"add-cart-btn"}
-                              disabled={inCart}
-                            >
-                              {!inCart ? "Add to Cart" : "Item In Cart"}
-                            </Button>
-                          ) : (
-                            <div className={"d-flex justify-content-between"}>
-                              <div>
-                                <b>{`$${data.price}`}</b>
-                              </div>
-                              <div>
-                                <Button
-                                  onClick={() => {
-                                    setSelectSize({
-                                      size: true,
-                                      index: index,
-                                    });
-                                    setSizeData("");
-                                  }}
-                                  size={"sm"}
-                                  className={"size-btn"}
-                                >
-                                  Size
-                                </Button>
-                              </div>
+                        {sizeData && selectSize.index === index ? (
+                          <Button
+                            onClick={() =>
+                              handleAddToCart({
+                                data: data,
+                                selectedSize: sizeData,
+                              })
+                            }
+                            className={"add-cart-btn"}
+                            disabled={inCart}
+                          >
+                            {!inCart ? "Add to Cart" : "Item In Cart"}
+                          </Button>
+                        ) : (
+                          <div className={"d-flex justify-content-between"}>
+                            <div>
+                              <b>{`$${data.price}`}</b>
                             </div>
-                          )}
-                        </Card.Text>
+                            <div>
+                              <Button
+                                onClick={() => {
+                                  setSelectSize({
+                                    size: true,
+                                    index: index,
+                                  });
+                                  setSizeData("");
+                                }}
+                                size={"sm"}
+                                className={"size-btn"}
+                              >
+                                Size
+                              </Button>
+                            </div>
+                          </div>
+                        )}
                       </Card.Body>
                     </Card>
                   </div>
@@ -138,48 +134,44 @@ const ProductsComponent = (props) => {
                         ) : (
                           <Fragment>
                             <Card.Title>{data.vendor}</Card.Title>
-                            <Card.Text>
-                              <small>{data.name.substring("...", 32)}</small>
-                            </Card.Text>
+                            <small>{data.name.substring("...", 32)}</small>
                           </Fragment>
                         )}
-                        <Card.Text>
-                          {sizeData && selectSize.index === index ? (
-                            <Button
-                              onClick={() =>
-                                handleAddToCart({
-                                  data: data,
-                                  selectedSize: sizeData,
-                                })
-                              }
-                              className={"add-cart-btn"}
-                              disabled={inCart}
-                            >
-                              {!inCart ? "Add to Cart" : "Item In Cart"}
-                            </Button>
-                          ) : (
-                            <div className={"d-flex justify-content-between"}>
-                              <div>
-                                <b>{`$${data.price}`}</b>
-                              </div>
-                              <div>
-                                <Button
-                                  onClick={() => {
-                                    setSelectSize({
-                                      size: true,
-                                      index: index,
-                                    });
-                                    setSizeData("");
-                                  }}
-                                  size={"sm"}
-                                  className={"size-btn"}
-                                >
-                                  Size
-                                </Button>
-                              </div>
+                        {sizeData && selectSize.index === index ? (
+                          <Button
+                            onClick={() =>
+                              handleAddToCart({
+                                data: data,
+                                selectedSize: sizeData,
+                              })
+                            }
+                            className={"add-cart-btn"}
+                            disabled={inCart}
+                          >
+                            {!inCart ? "Add to Cart" : "Item In Cart"}
+                          </Button>
+                        ) : (
+                          <div className={"d-flex justify-content-between"}>
+                            <div>
+                              <b>{`$${data.price}`}</b>
                             </div>
-                          )}
-                        </Card.Text>
+                            <div>
+                              <Button
+                                onClick={() => {
+                                  setSelectSize({
+                                    size: true,
+                                    index: index,
+                                  });
+                                  setSizeData("");
+                                }}
+                                size={"sm"}
+                                className={"size-btn"}
+                              >
+                                Size
+                              </Button>
+                            </div>
+                          </div>
+                        )}
                       </Card.Body>
                     </Card>
                   </div>

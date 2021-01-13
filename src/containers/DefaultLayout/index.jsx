@@ -1,11 +1,10 @@
 import React, { Fragment, Suspense } from "react";
 import Routes from "../../routes";
 import { Route, Switch } from "react-router-dom";
-import "./index.scss";
-// import { useSelector } from "react-redux";
-import Header from "common/Header";
 import Loader from "utils/spinner";
-import Footer from "common/Footer";
+import "./index.scss";
+import Header from "components/common/Header";
+import Footer from "components/common/Footer";
 
 const DefaultLayout = (props) => {
   //Get data from reducer state

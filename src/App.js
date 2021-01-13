@@ -1,11 +1,11 @@
 import React from "react";
 import { Router } from "react-router-dom";
 import { interceptor } from "utils/interceptor";
-import configureStore from "../../Redux/store";
+import configureStore from "./Redux/store";
 import browserHistory from "utils/history";
 import { Provider } from "react-redux";
 import Loader from "utils/spinner";
-import AppRoutes from "../Routes";
+import AppRoutes from "./containers/Routes";
 
 const store = configureStore();
 
