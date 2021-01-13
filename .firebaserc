@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "react-redux-boilerplate-4313d"
+    "default": "react-redux-boilerplate-4313d",
+    "dev": "react-redux-boilerplate-4313d"
   }
 }

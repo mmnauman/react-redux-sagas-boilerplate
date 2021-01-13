@@ -58,10 +58,19 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ma
 ### Advanced Configuration
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
+### Firebase Installation
+```sh
+$ npm install --g firebase-tools
+```
 ### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+Deploy code on firebase server.
+
+```sh
+$ npm run build
+$ firebase use dev
+$ firebase deploy
+```
 
 ### `npm run build` fails to minify
 
